@@ -24,7 +24,7 @@ No further inputs are accepted until DEBOUNCE milliseconds have occurred.
 #include <stdlib.h>
 
 #ifndef DEBOUNCE
-#    define DEBOUNCE 50
+#    define DEBOUNCE 5
 #endif
 
 #if (MATRIX_COLS <= 8)
